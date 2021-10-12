@@ -1,3 +1,48 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700|Raleway:100,200,300,400,500");
+
+body {
+  background-color:rgb(201, 214, 223);
+  font-family:Raleway, sans-serif;
+  font-size:18px;
+  font-weight:300;
+  line-height:normal;
+}
+
+h1, h2, h3 {
+  font-family: Poppins, sans-serif;
+  color:rgb(30, 32, 34);
+}
+
+h1 {
+  font-size: 2em;
+  line-height:120%;
+}
+
+h2 {
+  color:rgb(82, 97, 107);
+  font-size: 1.3em;
+  line-height:normal;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height:90%;
+}
+
+a {
+  color:dodgerblue;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color:#C9D6DF;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -17,60 +62,31 @@
   }
 }
 
-body {
-  background-color:lightgray;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color:rgb(63, 63, 128);
-  font-size:normal;
-  line-height:normal;
-}
-
-h1, h2, h3 {
-  color:black;
-  font-family:sans-serif;
-}
-
-h1 {
-  font-size: 2em;
-  line-height:120%;
-}
-
-h2 {
-  color:rgb(63, 63, 128);
-  font-size: 1.3em;
-  line-height:normal;
-}
-
-h3 {
-  font-size: 1.2em;
-  line-height:90%;
-}
-
-a {
-  color:dodgerblue;
-  text-decoration: red;
-}
-
-a:hover {
-  background-color:whitesmoke;
-}
-
-.mainbox {
-  background: white;
+.card-white {
+  background:#F0F5F9 ;
   text-align: center;
   width: 500px;
-  padding: 20px;
-  border-radius: 25px;
-  border: 15px solid lightgrey;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px #52616B;
 }
 
-.linkbox {
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-background {
   text-align: center;
-  width: 450px;
+  width: 500px;
   padding: 10px;
 }
 
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
 }
